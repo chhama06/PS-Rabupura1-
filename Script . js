@@ -1,0 +1,59 @@
+// Slideshow functionality
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    if (slides[slideIndex-1]) {
+        slides[slideIndex-1].style.display = "block";
+    }
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+function plusSlides(n) {
+    showManualSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showManualSlides(slideIndex = n);
+}
+
+function showManualSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    if (slides[slideIndex-1]) {
+        slides[slideIndex-1].style.display = "block";
+    }
+}
+
+// Running Announcements
+const announcements = [
+    "शैक्षिक वर्ष 2025-26 के लिए प्रवेश चालू है। अंतिम तिथि 30 सितम्बर 2025 ।",
+    "ग्रीष्मकालीन अवकाश 20 मई से 15 जून।",
+    "विद्यालय में आपका स्वागत है!",
+    "गुणवत्तापूर्ण शिक्षा हमारा लक्ष्य है।"
+];
+
+let announcementIndex = 0;
+const announcementTextElement = document.querySelector('.announcement-text');
+
+function updateAnnouncement() {
+    announcementTextElement.textContent = announcements[announcementIndex];
+    announcementIndex = (announcementIndex + 1) % announcements.length;
+}
+
+setInterval(updateAnnouncement, 5000); // Change announcement every 5 seconds
+updateAnnouncement(); // Initial call to display the first announcement
+
+
