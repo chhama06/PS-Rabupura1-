@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PS Rabupura 1 Jewar</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<div class="logo-left">
+<img src="logos/school_logo.png" alt="School Logo">
+</div>
+<div class="logos-right">
+<img src="logos/nipun_bharat_logo.png" alt="Nipun Bharat Logo" class="circular-logo">
+<img src="logos/shiksha_vibhag_up_logo.png" alt="Shiksha Vibhag UP Logo" class="circular-logo">
+<img src="logos/up_sarkar_logo.png" alt="Uttar Pradesh Sarkar Logo" class="circular-logo">
+</div>
+<h1>PS Rabupura 1 Jewar</h1>
+<p class="tagline">Where Every Child Shines</p>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#medical">Medical</a></li>
+        <li><a href="#staff">Staff/Faculty</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#notice">School Notice</a></li>
+        <li><a href="#admission">Admission Info</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#our-school-gallery">Our School Gallery</a></li>
+    </ul>
+</nav>
+
+<div class="announcement-bar">
+    <div class="announcement-container">
+        <p class="announcement-text"></p>
+    </div>
+</div>
+
+<main>
+    <section id="welcome">
+        <h2>Welcome Message from Incharge Headmaster</h2>
+        <p>"आप सभी का इस ज्ञान के मंदिर में हार्दिक स्वागत है। शिक्षा ही वह दीप है जो अज्ञानता के अंधकार को दूर करता है। आइए, मिलकर मेहनत करें, सपनों को साकार करें और उज्जवल भविष्य की ओर अग्रसर हों।"</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us - हमारे बारे में</h2>
+        <p>हमारा प्राथमिक विद्यालय रबूपुरा 1,जेवर , बेसिक शिक्षा परिषद उत्तर प्रदेश के अंतर्गत है । प्राथमिक विद्यालय रबूपुरा 1 का निर्माण 1965 में किया गया ।शिक्षा के क्षेत्र में उत्कृष्टता की मिसाल है। यहाँ पर छात्रों को गुणवत्तापूर्ण शिक्षा, नैतिक मूल्यों और समग्र विकास के लिए एक प्रेरणादायक वातावरण प्रदान किया जाता है। हमारा उद्देश्य केवल पुस्तकीय ज्ञान देना नहीं, बल्कि विद्यार्थियों को आत्मनिर्भर, जिम्मेदार और समाज के लिए उपयोगी नागरिक बनाना है।</p>
+        <p>विद्यालय में अनुभवी और समर्पित शिक्षकों की टीम है जो हर छात्र को उसकी प्रतिभा के अनुसार मार्गदर्शन देती है। आधुनिक सुविधाओं, पुस्तकालय, विज्ञान प्रयोगशालाओं, कंप्यूटर कक्ष और खेलकूद की गतिविधियों के माध्यम से हम छात्रों के सर्वांगीण विकास पर जोर देते हैं।</p>
+        <p>हम यह मानते हैं कि शिक्षा एक यात्रा है, और हम हर छात्र के साथ मिलकर यह यात्रा सफल बनाने के लिए प्रतिबद्ध हैं। वर्तमान जेवर विधायक श्री धीरेंद्र सिंह जी ने यही से प्राथमिक शिक्षा प्राप्त की । धन्यवाद।</p>
+        <p><strong>Fees:</strong> ₹0</p>
+        <p>विद्यालय में किसी भी तरह की फीस नहीं की जाती है, सरकार द्वारा DBT के माध्यम से ₹1200 प्रत्येक छात्र को प्रति वर्ष दिए जाते है।</p>
+    </section>
+
+    <section id="facilities">
+        <h2>Facilities</h2>
+        <ul>
+            <li>पोषित आहार, फल,दूध (MDM)</li>
+            <li>स्मार्ट कक्षाएं  ( 75 इंच touch screen smart LED और 55 इंच smart LED)</li>
+            <li>Colourful and attractive classes</li>
+            <li>Comfartable  benches</li>
+            <li>विभिन्न प्रकार के झूले</li>
+            <li>खेल कूद सामग्री।</li>
+            <li>पीने योग्य पानी।</li>
+            <li>साफ शौचालय।</li>
+        </ul>
+    </section>
+
+    <section id="medical">
+        <h2>Medical</h2>
+        <p>प्राथमिक विद्यालय रबूपुरा 1 में प्राथमिक चिकित्सा किट (first aid kit) उपलब्ध रहती है। सरकार द्वारा चलाए जा रहे अभियानों के तहत समय समय पर छात्रों को टीका, आयरन टेबलेट, पेट में कीड़े मारने की दवा(एलबेंडाजोल) भी दी जाती है।</p>
+    </section>
+
+    <section id="staff">
+        <h2>Staff/Faculty</h2>
+        <ul>
+            <li>Manisha Singh (Incharge Headmaster)</li>
+            <li>Manisha Rajput ( Assistant Teacher)</li>
+            <li>Chhama Rani Singh ( Assistant Teacher)</li>
+            <li>Hemlata Sharma ( Shiksha Mitra)</li>
+            <li>Danvir Sharma ( Shiksha Mitra)</li>
+            <li>Bhavna Sharma ( Shiksha Mitra)</li>
+        </ul>
+    </section>
+
+    <section id="academics">
+        <h2>Academics or Curriculum - शैक्षणिक पाठ्यक्रम</h2>
+        <p>हमारे विद्यालय में विद्यार्थियों को एक संतुलित, समृद्ध और समग्र पाठ्यक्रम प्रदान किया जाता है, जो उनके बौद्धिक, नैतिक, शारीरिक और रचनात्मक विकास पर केंद्रित है। हमारा शैक्षणिक ढांचा राष्ट्रीय शिक्षा नीति एवं शिक्षा बोर्ड द्वारा निर्धारित मानकों पर आधारित है।</p>
+        <p>हम निम्नलिखित विषयों की शिक्षा प्रदान करते हैं:</p>
+        <ul>
+            <li>हिंदी, अंग्रेज़ी और संस्कृत जैसी भाषाएँ</li>
+            <li>गणित और  पर्यावरण अध्ययन</li>
+            <li>कला, शारीरिक शिक्षा एवं योग, पुस्तकालय</li>
+        </ul>
+        <p>प्रत्येक कक्षा के लिए पाठ्यक्रम को इस तरह से तैयार किया गया है कि वह छात्रों में तार्किक सोच, समस्या समाधान की क्षमता, और जीवन कौशल को विकसित कर सके। साथ ही, हम परियोजना-आधारित शिक्षण, समूह कार्य और गतिविधि आधारित शिक्षण को भी बढ़ावा देते हैं, जिससे बच्चे अधिक रुचि और आत्मविश्वास के साथ सीख सके।</p>
+    </section>
+
+    <section id="notice">
+        <h2>School Notice</h2>
+        <p class="notice-item"><strong>शैक्षिक वर्ष 2025-26 के लिए प्रवेश चालू है। अंतिम तिथि 30 सितम्बर 2025 ।</strong></p>
+        <h2>Announcement</h2>
+        <p class="announcement-item"><strong>ग्रीष्मकालीन अवकाश 20 मई से 15 जून।</strong></p>
+        <div class="pdf-download">
+            <a href="pdfs/holiday_list.pdf" download="holiday_list.pdf">Download Holiday List (PDF)</a>
+        </div>
+    </section>
+
+    <section id="admission">
+        <h2>Admission Info</h2>
+        <p><strong>How can a student take admission?</strong> विद्यालय में आकर।</p>
+        <p><strong>Required documents, age, classes:</strong></p>
+        <ul>
+            <li>आवेदक का आधार कार्ड (वैकल्पिक)</li>
+            <li>आयु 6 वर्ष कक्षा 1 में दाखिले के लिए।</li>
+        </ul>
+        <p><strong>विद्यालय समय:</strong></p>
+        <ul>
+            <li>विद्यार्थियों के लिए 1 अप्रैल से 30 सितम्बर तक 8:00 AM से 2:00 PM।</li>
+            <li>01 अक्टूबर से 31 मार्च तक 9:00 AM से 3:00 PM ।</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/image1.jpg" style="width:100%" alt="Image 1"> </div>
+            <div class="mySlides fade">
+                <img src="images/image2.jpg" style="width:100%" alt="Image 2"> </div>
+            <div class="mySlides fade">
+                <img src="images/image3.jpg" style="width:100%" alt="Image 3"> </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            </div>
+    </section>
+
+    <section id="our-school-gallery">
+        <h2>Our School Gallery</h2>
+        <div class="school-image-grid">
+            <img src="images/our_school_gallery/school_building_exterior_front.jpg" alt="School Building Front">
+            <img src="images/our_school_gallery/school_building_side_view.jpg" alt="School Building Side">
+            <img src="images/our_school_gallery/school_entrance_gate.jpg" alt="School Entrance">
+            <img src="images/our_school_gallery/school_building_aerial_view.jpg" alt="School Aerial View">
+            </div>
+    </section>
+
+    <section id="video">
+        <h2>Our Video</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="[https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID](https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID)" frameborder="0" allow="accelerate
+            
